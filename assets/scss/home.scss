@@ -1,0 +1,44 @@
+// main page css file is attached
+#main-page{
+    width: 100%;
+    h1{
+        text-align: center;
+        font-size: 45px;
+        color:#1c9ba9;
+    }
+    table{
+        margin: auto;
+        font-family: sans-serif;
+        tbody{
+            tr{
+            background-image: linear-gradient(120deg,white,lightgrey);
+        }
+    }
+        thead{
+            font-size: 26px;
+            background-image:linear-gradient(120deg,rgb(73, 220, 212),white);
+            color: white;
+        }
+        th,td{
+            padding: 10px;
+            text-align: center;
+            border-bottom: solid 1px rgba(255,255,255,0.3);
+        }
+        td{
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+        #showIssue{
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: blueviolet;
+            }
+        }
+    }
+}
+body{
+    background-color: white;
+}
+
+  
